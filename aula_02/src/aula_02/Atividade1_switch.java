@@ -6,10 +6,10 @@ public class Atividade1_switch {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		
+
 		int produto;
 		int quantidade;
-		
+
 		System.out.println("Produtos\n");
 		System.out.println("1\t-\tCachorro Quente");
 		System.out.println("2\t-\tX-Salada");
@@ -18,16 +18,15 @@ public class Atividade1_switch {
 		System.out.println("5\t-\tRefrigerante");
 		System.out.println("6\t-\tSuco de laranja\n\n");
 
-		
 		System.out.println("Qual produto você deseja comprar?");
 		produto = leia.nextInt();
-		
+
 		System.out.println("Qual a quantidade do produto que você quer comprar?");
 		quantidade = leia.nextInt();
-		
-		switch(produto) {
+
+		switch (produto) {
 		case 1:
-			System.out.println("O valor total da compra é R$" + (quantidade * 10)); 
+			System.out.println("O valor total da compra é R$" + (quantidade * 10));
 			break;
 		case 2:
 			System.out.println("O valor total da compra é R$" + (quantidade * 15));
@@ -45,7 +44,7 @@ public class Atividade1_switch {
 			System.out.println("O valor total da compra é R$" + (quantidade * 13));
 			break;
 		}
-		
+
 		leia.close();
 	}
 

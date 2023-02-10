@@ -107,7 +107,7 @@ public class Atividade4_if {
 		} else {
 			System.out.println("Opção inválida!");
 		}
-
+		leia.close();
 	}
 
 }
